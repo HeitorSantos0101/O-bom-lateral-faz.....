@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano Lateral PRO: 30 Dias de Alta Performance</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&family=Poppins:wght@300;400;600;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>⚽ Performance Lateral PRO 🚀</h1>
+        <p>30 Dias: Força, Explosão e Agilidade</p>
+    </header>
+
+    <main>
+        <section id="timer-section">
+            <h2 class="timer-title">CRONÔMETRO HIIT</h2>
+            <div id="timer-display">00:00</div>
+            <div class="timer-controls">
+                <button id="start-btn" class="control-btn primary-btn"><i class="fas fa-play"></i> INICIAR (45s)</button>
+                <button id="rest-btn" class="control-btn secondary-btn" data-time="30"><i class="fas fa-hourglass-half"></i> DESCANSO (30s)</button>
+                <button id="reset-btn" class="control-btn tertiary-btn"><i class="fas fa-redo"></i> RESETAR</button>
+            </div>
+            <p id="timer-status">Pronto para começar!</p>
+        </section>
+        
+        <nav id="tabs">
+            <button class="tab-button active" onclick="showWeek('week1', this)">SEMANA 1</button>
+            <button class="tab-button" onclick="showWeek('week2', this)">SEMANA 2</button>
+            <button class="tab-button" onclick="showWeek('week3', this)">SEMANA 3</button>
+            <button class="tab-button" onclick="showWeek('week4', this)">SEMANA 4</button>
+        </nav>
+
+        <div id="content-container">
+            
+            <section class="week-content" id="week1">
+                <div class="day-card">
+                    <h3>✅ TREINO A: Core e Força Pélvica</h3>
+                    <p class="goal">🎯 **Foco:** Estabilização para mudanças rápidas de direção.</p>
+                    <ul class="exercise-list">
+                        <li>
+                            <strong>Agachamento com Miniband (Quadril)</strong> — 3x15
+                            <a href="http://www.youtube.com/watch?v=c589y_rCQbQ" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Vídeo</a>
+                        </li>
+                        <li>
+                            <strong>Afundo Búlgaro (em step)</strong> — 3x12 por perna
+                            <a href="http://www.youtube.com/watch?v=v-bItsW7fUI" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Vídeo</a>
+                        </li>
+                        <li>
+                            <strong>Ponte de Quadril Unilateral c/ Miniband</strong> — 3x15 por perna
+                             <a href="http://www.youtube.com/watch?v=0e1SXFq806U" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Vídeo</a>
+                        </li>
+                        <li>
+                            <strong>Prancha Lateral</strong> — 3x45 segundos por lado
+                            <a href="https://www.youtube.com/watch?v=s5R5L11k2iI" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Vídeo</a>
+                        </li>
+                        <li>
+                            <strong>Mountain Climber Lento</strong> — 3x40 segundos
+                            <a href="http://www.youtube.com/watch?v=ywYRG1oBKWU" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Vídeo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="day-card">
+                    <h3>🏃 TREINO B: Agilidade Funcional</h3>
+                    <ul class="exercise-list">
+                        <li><strong>Corridas curtas 5m (Frontal e de Costas)</strong> — 8 rep.</li>
+                        <li><strong>"T" Drill (Cones)</strong> — 5 rep. (Mudar de direção rápido)</li>
+                        <li><strong>Condução rápida de bola em slalom</strong> — 4x30s</li>
+                        <li><strong>Piques curtos em cone (3 metros)</strong> — 6 rep.</li>
+                    </ul>
+                </div>
+                <p class="tip">Dias de Treino A: Segunda, Quarta, Sexta. Dias de Treino B: Terça, Quinta.</p>
+            </section>
+
+            <section class="week-content hidden" id="week2">
+                <div class="day-card">
+                    <h3>⚡ TREINO A: Força Explosiva</h3>
+                    <p class="goal">🎯 **Foco:** Geração máxima de força em curto espaço de tempo.</p>
+                    <ul class="exercise-list">
+                        <li>
+                            <strong>Agachamento com Salto (Box Jump)</strong> — 4x8 (Ênfase na aterrissagem suave)
+                            <a href="http://www.youtube.com/watch?v=K_NceWvsN24" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Salto</a>
+                        </li>
+                        <li>
+                            <strong>Afundo com Salto (Alternado)</strong> — 3x10 por perna
+                            <a href="http://www.youtube.com/watch?v=VJFHersLOqU" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Técnica</a>
+                        </li>
+                        <li>
+                            <strong>Salto Lateral (Hurdle Hops)</strong> — 3x10 (Pular sobre um objeto baixo lateralmente)
+                            <a href="http://www.youtube.com/watch?v=m-9kFeHps9Y" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Salto</a>
+                        </li>
+                        <li><strong>Abdominal Canivete Completo</strong> — 3x15</li>
+                        <li><strong>Flexão de braço (explosiva)</strong> — 3x10</li>
+                    </ul>
+                </div>
+                <div class="day-card">
+                    <h3>⚽ TREINO B: Reação e Habilidade</h3>
+                    <ul class="exercise-list">
+                        <li><strong>Drible rápido + Tiro 10m</strong> — 6 rep.</li>
+                        <li><strong>Passes curtos e rápidos c/ mudança de pé</strong> — 3x1min</li>
+                        <li><strong>Corridas curtas de reação (ao sinal)</strong> — 8 rep.</li>
+                        <li><strong>Escada de agilidade: Entrada e Saída Lateral</strong> — 5 rep.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="week-content hidden" id="week3">
+                <div class="day-card">
+                    <h3>💨 TREINO A: Resistência e Velocidade</h3>
+                    <p class="goal">🎯 **Foco:** Manter a velocidade e a força por mais tempo.</p>
+                    <ul class="exercise-list">
+                        <li>
+                            <strong>Sprint com Miniband (Resistência)</strong> — 6x10m (Com parceiro ou preso a algo)
+                            <a href="https://www.youtube.com/watch?v=K1pW99m0wXk" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Sprint</a>
+                        </li>
+                        <li>
+                            <strong>Corrida Lateral c/ Miniband (Avanço/Recuo)</strong> — 3x40 segundos cada lado
+                            <a href="http://www.youtube.com/watch?v=94bk8_Hvfeo" target="_blank" class="video-link"><i class="fab fa-youtube"></i> Ver Corrida</a>
+                        </li>
+                        <li><strong>Elevação de Gêmeos Unilateral</strong> — 3x20 por perna</li>
+                        <li><strong>Prancha Lateral c/ Elevação de Perna</strong> — 3x40s por lado</li>
+                    </ul>
+                </div>
+                <div class="day-card">
+                    <h3>🧭 TREINO B: Finta e Decisão</h3>
+                    <ul class="exercise-list">
+                        <li><strong>Corte e Finta (Simulação de 1v1)</strong> — 10 rep.</li>
+                        <li><strong>Domínio Aéreo + Condução Rápida</strong> — 5 rep.</li>
+                        <li><strong>Toques de primeira (Visão Periférica)</strong> — 3x1min</li>
+                        <li><strong>Burpees de Agilidade</strong> — 3x10 (Combinar força e explosão)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="week-content hidden" id="week4">
+                <div class="day-card full-width">
+                    <h3>🔥 TREINO A: Circuito de Jogo (3x)</h3>
+                    <p class="goal">🎯 **Foco:** Explosão, resistência e situações de jogo.</p>
+                    <p class="tip">**Circuito: Repetir 3 a 4 vezes! 30s de descanso entre exercícios. 2 min entre voltas.**</p>
+                    <ul class="exercise-list circuit">
+                        <li>1️⃣ **Sprint 15m (Máximo)**</li>
+                        <li>2️⃣ **Afundo Búlgaro** — 8 rep. por perna</li>
+                        <li>3️⃣ **Corrida Lateral c/ Miniband** — 20s</li>
+                        <li>4️⃣ **Mountain Climber** — 40s</li>
+                        <li>5️⃣ **Salto c/ Agachamento** — 10 rep.</li>
+                    </ul>
+                </div>
+                <div class="day-card">
+                    <h3>🏅 TREINO B: Ritmo e Finalização</h3>
+                    <ul class="exercise-list">
+                        <li><strong>Fintas + Cruzamento/Passe Longo</strong> — 8 rep.</li>
+                        <li><strong>Corridas com Mudança de Ritmo (Aceleração/Desaceleração)</strong> — 6 rep.</li>
+                        <li><strong>Domínio Orientado Rápido</strong> — 3x1min</li>
+                        <li><strong>Prancha Total (Estática)</strong> — 2x2 minutos</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        
+        <aside class="extra-tips">
+            <h2>⚙️ Dicas Fundamentais</h2>
+            <ul>
+                <li>**Aquecimento:** 5-7 min de mobilidade dinâmica (quadril, tornozelo, ombro).</li>
+                <li>**Descanso:** 30 a 60 segundos entre séries. Use o botão **DESCANSO** do cronômetro!</li>
+                <li>**Progressão:** Na Semana 3, use a banda elástica de maior resistência.</li>
+                <li>**Recuperação:** Mínimo de 1 dia de descanso completo (Ex: Domingo).</li>
+            </ul>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
